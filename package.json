@@ -1,0 +1,22 @@
+{
+  "name": "map-object",
+  "version": "1.0.0",
+  "description": "map over objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walaura/map-object.git"
+  },
+  "author": "Lau mayhem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/walaura/map-object/issues"
+  },
+  "homepage": "https://github.com/walaura/map-object#readme",
+  "dependencies": {
+    "jest": "^23.6.0"
+  }
+}
