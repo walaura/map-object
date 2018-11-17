@@ -15,11 +15,11 @@ const reduceObject = (obj, fn, initial = {}) =>
 
 const filterObject = (obj, fn) =>
 	Object.entries(obj).reduce(
-		(acc, entry, index) =>
-			fn(entry, index, obj)
+		(acc, [key, value], index) =>
+			fn([key, value], index, obj)
 				? {
 						...acc,
-						[entry[0]]: entry[1],
+						[key]: value,
 				  }
 				: acc,
 		{}
