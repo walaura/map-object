@@ -1,6 +1,6 @@
 # object-cartographer
 
-`map`, `reduce`, and `filter` for objects, wrapping `Object.ewntries().reduce()`
+`map`, `reduce`, and `filter` for objects, wrapping `Object.entries().reduce()`
 
 ## Usage
 
